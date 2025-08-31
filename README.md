@@ -27,8 +27,6 @@
 
 ## Сборка
 
-### Вариант 1 — MSVC (Visual Studio Build Tools)
-
 1. Открой **x64 Native Tools Command Prompt**.
 2. В корне проекта:
    ```bat
