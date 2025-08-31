@@ -1,0 +1,2 @@
+#include "Icon.h"
+IDI_APPICON ICON "app.ico"
