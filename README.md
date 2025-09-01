@@ -6,6 +6,34 @@
 <img width="583" height="766" alt="image" src="https://github.com/user-attachments/assets/ed8cfa50-af0d-4212-9dce-3c269ac60233" />
 
 
+## English Description
+
+**LightClick** is a simple and fast auto clicker for Windows, written in pure C++ using the Win32 API (no .NET or third-party frameworks). It runs on Windows 10/11 and is designed to be lightweight, portable, and easy to use.
+
+[Download the latest release](https://github.com/NShutnik/LightClick/releases/tag/release_0.1.6)
+
+**Features:**
+- **Interval in ms or CPS** — switch between "ms" (milliseconds) or "CPS" (clicks per second).
+- **Double click** mode (with adaptive pause between press/release).
+- **Hold button mode** — clicks and holds the mouse button until stopped.
+- **Choose mouse button:** Left (LMB), Right (RMB), Middle, **MB4 (X1)**, **MB5 (X2)**.
+- **Fixed position** + **point picker button**:
+  - Hover your cursor and left-click to capture coordinates automatically;
+  - The confirming click is **not passed** to the target window (suppressed via LL-hook).
+- **Stop mode:** infinite / **N clicks** / **N seconds**.
+- **Random interval jitter** in percentage ±.
+- **Hotkey** can be set directly in the UI (`HOTKEY_CLASS`), default is **F6**.
+  - Hotkey is displayed on the **Start/Stop (… )** button and updates when changed.
+- **Tray icon and minimize to tray**: menu options for "Show/Hide", "Start/Stop", "Exit".
+  - Startup parameter **`/tray`** — start minimized to tray.
+- **Settings saved** in `LightClick.ini` next to the EXE.
+- **Optional autostart** (checkbox in UI) — writes to `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`.
+- **DPI-friendly** padding and sizes.
+
+> ⚠️ To click on windows running as **administrator**, you must also run the auto clicker **as administrator**.
+
+---
+
 ## Возможности
 
 - **Интервал в мс или CPS** — переключатель «мс / CPS».
