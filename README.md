@@ -2,6 +2,10 @@
 
 Простой и быстрый автокликер. Пишется на чистом Win32 API (C++), без .NET и сторонних фреймворков. Работает на Windows 10/11, дружит с DPI и не требует установки — один .exe.
 [Скачать последнюю версию](https://github.com/NShutnik/LightClick/releases/tag/release_0.1.6)
+
+<img width="583" height="766" alt="image" src="https://github.com/user-attachments/assets/ed8cfa50-af0d-4212-9dce-3c269ac60233" />
+
+
 ## Возможности
 
 - **Интервал в мс или CPS** — переключатель «мс / CPS».
