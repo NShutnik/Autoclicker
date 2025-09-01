@@ -1,7 +1,7 @@
 # LightClick — лёгкий автокликер для Windows (C++/Win32)
 
 Простой и быстрый автокликер. Пишется на чистом Win32 API (C++), без .NET и сторонних фреймворков. Работает на Windows 10/11, дружит с DPI и не требует установки — один .exe.
-[Скачать последнюю версию]([https://github.com/OWNER/REPO/releases/latest](https://github.com/NShutnik/LightClick/releases/tag/release))
+[Скачать последнюю версию](https://github.com/NShutnik/LightClick/releases/tag/release_0.1.6)
 ## Возможности
 
 - **Интервал в мс или CPS** — переключатель «мс / CPS».
